@@ -1,4 +1,4 @@
-# PROJETO POWER-BI DA PREFEITURA 
+# PROJETO POWER-BI DA PREFEITURA DO RECIFE (HUB DE DADOS) 
 
 A Prefeitura do Recife disponibiliza um amplo acervo de informações públicas por meio de sua política de Dados Abertos, garantindo transparência e incentivando a inovação. Com base nesses dados, desenvolvi uma solução intuitiva para a análise da situação final dos alunos por período letivo. Utilizando o Power BI, criei um dashboard acessível e visualmente claro, permitindo que qualquer cidadão compreenda as informações de forma rápida e eficiente.
 
@@ -10,8 +10,11 @@ Hub de Dados: https://hubdedados.recife.pe.gov.br/
 
 Tenha acesso ao dashboard a partir deste link: https://app.powerbi.com/view?r=eyJrIjoiYzQ2Mjc5ODMtYmU5Yy00ODBmLThiMDQtN2E1ZDI2NDM5ODU2IiwidCI6IjRhMjJmMTE2LTUxY2UtNGZlMy1hZWFhLTljNDYxNDNkMDg4YiJ9
 
-<img src="https://exemplo.com/logo.png" alt="Logo da Minha Empresa">
-<img src="https://exemplo.com/logo.png" alt="Logo da Minha Empresa">
+<h2 >Página 1: Análise Ano a Ano dos Períodos Letivos</h2>
+<img src="Img/Img1.png" alt="Logo da Minha Empresa">
+
+<h2 >Página 1: Análise temporal por Período Letivo</h2>
+<img src="Img/ImgPag2.png" alt="Logo da Minha Empresa">
 
 <h2 >Criador</h2>
 <table>
