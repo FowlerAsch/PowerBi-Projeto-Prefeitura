@@ -1,23 +1,36 @@
-# PROJETO POWER-BI DA PREFEITURA DO RECIFE (HUB DE DADOS) 
+<h1> 📊 PROJETO POWER BI - PREFEITURA DO RECIFE (HUB DE DADOS)</h1>
 
 A Prefeitura do Recife disponibiliza um amplo acervo de informações públicas por meio de sua política de Dados Abertos, garantindo transparência e incentivando a inovação. Com base nesses dados, desenvolvi uma solução intuitiva para a análise da situação final dos alunos por período letivo. Utilizando o Power BI, criei um dashboard acessível e visualmente claro, permitindo que qualquer cidadão compreenda as informações de forma rápida e eficiente.
 
-Próximo passo: O próximo passo é submeter o projeto ao site Hub de Dados e buscar disponibilizar as informações para todos os cidadãos brasileiros, com foco especial nos recifenses.
+🔹 Objetivo do Projeto
 
-DataSet utilizado: http://dados.recife.pe.gov.br/dataset/situacao-final-dos-alunos-por-periodo-letivo
+📌 Facilitar a análise dos dados educacionais da Prefeitura do Recife.
 
-Hub de Dados: https://hubdedados.recife.pe.gov.br/
+📌 Tornar as informações mais acessíveis para gestores, pesquisadores e cidadãos.
 
-Tenha acesso ao dashboard a partir deste link: https://app.powerbi.com/view?r=eyJrIjoiYzQ2Mjc5ODMtYmU5Yy00ODBmLThiMDQtN2E1ZDI2NDM5ODU2IiwidCI6IjRhMjJmMTE2LTUxY2UtNGZlMy1hZWFhLTljNDYxNDNkMDg4YiJ9
+📌 Incentivar o uso de dados abertos na tomada de decisões.
 
-<h2 >Página 1: Análise Ano a Ano dos Períodos Letivos</h2>
+<h2> 🚀 Próximos Passos </h2>
+
+O próximo passo é submeter o projeto ao site Hub de Dados e buscar disponibilizar as informações para todos os cidadãos brasileiros, com foco especial nos recifenses.
+
+<h2> 📂 Fonte dos Dados </h2>
+
+🔗 DataSet utilizado: <a href="http://dados.recife.pe.gov.br/dataset/situacao-final-dos-alunos-por-periodo-letivo" target="_blank">Situação Final dos Alunos por Período Letivo</a>
+
+🔗 Hub de Dados: <a href="https://hubdedados.recife.pe.gov.br/" target="_blank">Hub de Dados Recife</a>
+
+<h2> 📌 Visualizações do Dashboard </h2>
+<h5> 📍 Página 1: Análise Ano a Ano dos Períodos Letivos</h5>
 <img src="Img/Img1.png" alt="Logo da Minha Empresa">
 
-<h2 >Página 1: Análise temporal por Período Letivo</h2>
+<h5> 📍 Página 1: Análise temporal por Período Letivo</h5>
 <img src="Img/ImgPag2.png" alt="Logo da Minha Empresa">
 
-<h2 >Criador</h2>
-<table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/higor-cabrall/"><img src="https://avatars.githubusercontent.com/u/104106899?s=400&u=6ae8d212fe0462f9af2b7b1227276bd78b9dcf51&v=4" width="100px;" alt="Homem branco com camisa preta em foto de perfil"/><br/><sub><b>Higor Cabral</b></sub></a></td>
-  </tr>
+<h2>👨‍💻 Criador</h2>
+<table> <tr> <td align="center"> <a href="https://www.linkedin.com/in/higor-cabrall/"> <img src="https://avatars.githubusercontent.com/u/104106899?s=400&u=6ae8d212fe0462f9af2b7b1227276bd78b9dcf51&v=4" width="100px;" alt="Foto de Higor Cabral"/> <br/> <sub><b>Higor Cabral</b></sub> </a> </td> </tr> </table>
+
+<h5>📌 LinkedIn: <a href="https://www.linkedin.com/in/higor-cabrall/" target="_blank">Higor Cabral</a></h5>
+
+
+
