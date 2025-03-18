@@ -67,11 +67,11 @@ dataSet.loc[dataSet['sexo'] == "2", 'sexo'] = "Feminino"
 
 dataSet['modalidade_ensino'].unique()
 
-dataSet.loc[dataSet['modalidade_ensino'] == "EDUCACAO JOVENS E ADULTOS", 'modalidade_ensino'] = "EDUCACAO JOVENS E ADULTOS"
-
-dataSet.loc[dataSet['modalidade_ensino'] == "EDUCACAO  JOVENS E ADULTOS", 'modalidade_ensino'] = "EDUCACAO JOVENS E ADULTOS"
-
-dataSet.loc[dataSet['modalidade_ensino'] == "PROJOVEM", 'modalidade_ensino'] = "EDUCACAO JOVENS E ADULTOS"
+dataSet['modalidade_ensino'] = dataSet['modalidade_ensino'].str.strip().replace({
+    "EDUCACAO JOVENS E ADULTOS": "EDUCACAO JOVENS E ADULTOS",
+    "EDUCACAO  JOVENS E ADULTOS": "EDUCACAO JOVENS E ADULTOS",
+    "PROJOVEM": "EDUCACAO JOVENS E ADULTOS"
+})
 
 """Alterando endereco_numero"""
 
@@ -83,12 +83,49 @@ dataSet.loc[dataSet['endereco_numero'] == "S/N", 'endereco_numero'] = "SN"
 
 dataSet['rpa'].unique()
 
-dataSet.loc[dataSet['rpa'] == "1", 'rpa'] = "CENTRO"
-dataSet.loc[dataSet['rpa'] == "2", 'rpa'] = "NORTE"
-dataSet.loc[dataSet['rpa'] == "3", 'rpa'] = "NOROESTE"
-dataSet.loc[dataSet['rpa'] == "4", 'rpa'] = "OESTE"
-dataSet.loc[dataSet['rpa'] == "5", 'rpa'] = "SUDOESTE"
-dataSet.loc[dataSet['rpa'] == "6", 'rpa'] = "SUL"
+dataSet['rpa'] = dataSet['rpa'].replace({
+    "1": "CENTRO",
+    "2": "NORTE",
+    "3": "NOROESTE",
+    "4": "OESTE",
+    "5": "SUDOESTE",
+    "6": "SUL"
+})
+
+dataSet['situacao_nome'].unique()
+
+dataSet['situacao_nome'].value_counts()
+
+dataSet['situacao_nome'] = dataSet['situacao_nome'].replace({
+    "RETIDO": "REPROVADO",
+    "RETIDO POR FALTA": "REPROVADO POR FALTA",
+    "REPROV P/  FALTA": "REPROVADO POR FALTA",
+    "TR DUR ANO S/INFO": "TRANSFERÊNCIA",
+    "RETIDO POR IDADE": "REPROVADO",
+    "RT FALTA TR P/REDE": "TR DUR ANO P/REDE",
+    "RETIDO E TR P/ REDE": "TR DUR ANO P/REDE",
+    "Transferência": "TRANSFERÊNCIA",
+    "DESIST/DEIXOU FREQUE": "DESISTENTE",
+    "DESIST REN C/ TRANSF": "TRANSFERÊNCIA",
+    "RENV S/SIT FINAL DEF": "RENV NÃO DEFINIDA",
+    "FREQÜENTE": "APROVADO"
+
+})
+
+def faixa_etaria(idade):
+    if idade <= 10:
+        return 'Criança'
+    elif 11 <= idade <= 17:
+        return 'Adolescente'
+    else:
+        return 'Adulto'
+
+dataSet['faixa_etaria'] = dataSet['idade'].apply(faixa_etaria)
+
+dataSet.head(
+)
+
+
 
 """# **SAVE**"""
 
