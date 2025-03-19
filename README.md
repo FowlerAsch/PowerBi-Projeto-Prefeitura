@@ -32,5 +32,8 @@ O próximo passo é submeter o projeto ao site Hub de Dados e buscar disponibili
 
 <h5>📌 LinkedIn: <a href="https://www.linkedin.com/in/higor-cabrall/" target="_blank">Higor Cabral</a></h5>
 
+<h4>🎯 Como Contribuir?</h4>
+Se você tem sugestões de melhorias ou deseja colaborar com este projeto, fique à vontade para abrir uma issue ou enviar um pull request.
+
 
 
