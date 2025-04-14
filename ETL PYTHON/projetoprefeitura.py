@@ -136,6 +136,6 @@ dataSet['faixa_etaria'] = dataSet['idade'].apply(faixa_etaria)
 
 """# **SAVE**"""
 
-dataSet.to_csv('/content/BaseGeralPrefeitura_tratada.csv', index=False, sep=";")
+# dataSet.to_csv('/content/BaseGeralPrefeitura_tratada.csv', index=False, sep=";")
 
-files.download('/content/BaseGeralPrefeitura_tratada.csv')
+# files.download('/content/BaseGeralPrefeitura_tratada.csv')
