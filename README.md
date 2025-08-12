@@ -22,10 +22,10 @@ O próximo passo é submeter o projeto ao site Hub de Dados e buscar disponibili
 
 <h2> 📌 Visualizações do Dashboard </h2>
 <h5> 📍 Página 1: Análise Ano a Ano dos Períodos Letivos</h5>
-<img src="Img/Img1.png" alt="Logo da Minha Empresa">
+<img src="" alt="Logo da Minha Empresa">
 
 <h5> 📍 Página 1: Análise temporal por Período Letivo</h5>
-<img src="Img/ImgPag2.png" alt="Logo da Minha Empresa">
+<img src="" alt="Logo da Minha Empresa">
 
 <h2>👨‍💻 Criador</h2>
 <table> <tr> <td align="center"> <a href="https://www.linkedin.com/in/higor-cabrall/"> <img src="https://avatars.githubusercontent.com/u/104106899?s=400&u=6ae8d212fe0462f9af2b7b1227276bd78b9dcf51&v=4" width="100px;" alt="Foto de Higor Cabral"/> <br/> <sub><b>Higor Cabral</b></sub> </a> </td> </tr> </table>
