@@ -12,7 +12,7 @@ A Prefeitura do Recife disponibiliza um amplo acervo de informações públicas 
 
 <h2> 🚀 Próximos Passos </h2>
 
-O próximo passo é submeter o projeto ao site Hub de Dados e buscar disponibilizar as informações para todos os cidadãos brasileiros, com foco especial nos recifenses.
+O próximo passo consiste em submeter o projeto ao Hub de Dados, tornando as informações acessíveis a todos os cidadãos brasileiros, com ênfase especial na realidade e nas necessidades dos recifenses.
 
 <h2> 📂 Fonte dos Dados </h2>
 
